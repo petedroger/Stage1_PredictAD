@@ -8,11 +8,15 @@ wsl --update
  wsl --install -d Ubuntu-22.04
  
 Bash sudo apt update
+
 sudo apt -y upgrade
+
 sudo apt-get install dc python3 bzip2 mesa-utils gedit firefox libgomp1
+
 curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | sh -s
 
 bash sudo apt install dos2unix
+
 dos2unix oasis_scan_download_example
 
 Please read the output carefully - the following message will be printed when the installation has completed successfully:
