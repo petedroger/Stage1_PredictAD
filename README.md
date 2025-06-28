@@ -61,5 +61,6 @@ pip install -f  ${wxpyurl} wxpython
 Once you have installed wxPython, you can install FSLeyes:
 
 pip install fsleyes
+
 You should now be able to run the fsleyes command.
 
