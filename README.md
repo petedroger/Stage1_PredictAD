@@ -26,7 +26,7 @@ Send us a message with the above information, and we will try our best to help.
 Otherwise, you can verify your installation to make sure that the installation has succeeded.
 
 Download OASIS3:
-./download_oasis_scans.sh <input_file.csv> <directory_name> <nitrc_ir_username> T1w
+./download_oasis_scans.sh oasis_scan_download_example /mnt/e/OASIS3 <nitrc_ir_username> T1w
 
 Run delete_invalid.py on VScode to delete sform_code = 0 and qform_code = 0
 Bash: fix_orientation_reorient.sh to reorient to standard space using the fslreorient2std tool from FSL.
