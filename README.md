@@ -12,6 +12,9 @@ sudo apt -y upgrade
 sudo apt-get install dc python3 bzip2 mesa-utils gedit firefox libgomp1
 curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | sh -s
 
+bash sudo apt install dos2unix
+dos2unix oasis_scan_download_example
+
 Please read the output carefully - the following message will be printed when the installation has completed successfully:
 
 FSL successfully installed
@@ -29,19 +32,19 @@ Download OASIS3:
 ./download_oasis_scans.sh oasis_scan_download_example /mnt/e/OASIS3 <nitrc_ir_username> T1w
 
 Run delete_invalid.py on VScode to delete sform_code = 0 and qform_code = 0
-Bash: fix_orientation_reorient.sh to reorient to standard space using the fslreorient2std tool from FSL.
+bash: fix_orientation_reorient.sh to reorient to standard space using the fslreorient2std tool from FSL.
 
-Bash: conda install -c conda-forge ants
+bash conda install -c conda-forge ants
 
-Bash: sudo apt update
+bash sudo apt update
 
-Bash: sudo apt install parallel -y
+bash sudo apt install parallel -y
 
-Bash: n4_bias_correction.sh to bias field correction.
+bash n4_bias_correction.sh to bias field correction.
 
-Bash: run_bet2_skullstrip.sh to perform skull stripping.
+bash run_bet2_skullstrip.sh to perform skull stripping.
 
-Bash: MNI152_flirt_registration to perform MNI152 standard template registration.
+bash MNI152_flirt_registration to perform MNI152 standard template registration.
 
 FLSeyes to view MRIs: 
 Before installing FSLeyes, you first need to install Python and the wxPython runtime dependencies. Under Ubuntu 24.04, you will need to run the following command:
