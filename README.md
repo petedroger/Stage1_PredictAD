@@ -61,10 +61,17 @@ Then you need to create and activate a virtual environment, and install wxPython
 
 python -m venv fsleyes-virtualenv
 . ./fsleyes-virtualenv/bin/activate
+
 The easiest way to install wxPython on Linux is to use the pre-release wxPython builds available at https://extras.wxpython.org/wxPython4/extras/linux/, e.g.:
 
 wxpyurl=https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-24.04
+
 pip install -f  ${wxpyurl} wxpython
+
+sudo apt update
+
+sudo apt install libsdl2-2.0-0
+
 Once you have installed wxPython, you can install FSLeyes:
 
 pip install fsleyes
