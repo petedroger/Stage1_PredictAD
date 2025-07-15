@@ -1,6 +1,6 @@
 # 🧠 Stage1\_PredictAD: Neuroimaging Preprocessing Pipeline
 
-This project provides a step-by-step guide to setting up a Linux-based environment for running essential neuroimaging preprocessing tools including **FSL**, **ANTs**, and **FSLeyes**, and includes custom scripts for operations like **bias field correction**, **skull stripping**, and **registration to MNI152 space**.
+The project is under NSF REU SITE: Non-Invasive Deep Brain-Computed Interfaces of Kennesaw State University. This project provides a step-by-step guide to setting up a Linux-based environment for running essential neuroimaging preprocessing tools, including **FSL**, **ANTs**, and **FSLeyes**, and includes custom scripts for operations like **bias field correction**, **skull stripping**, and **registration to MNI152 space**.
 
 ---
 
